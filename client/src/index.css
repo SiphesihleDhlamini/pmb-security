@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+
+@keyframes backgroundSlide {
+  0%, 23% {
+    background-image: url('/src/assets/security1.jpg');
+  }
+  25%, 48%  {
+    background-image: url('/src/assets/security2.jpg');
+  }
+  75%, 98%   {
+    background-image: url('/src/assets/security3.jpg');
+  }
+}
+
+.animate-backgroundSlide {
+  animation: backgroundSlide 15s infinite;
+  transition: background-image 0.5s ease-in-out;
+  background-size: cover;
+  background-position: center;
+}
+
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
