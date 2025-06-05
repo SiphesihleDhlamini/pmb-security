@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className="border-b bg-white">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-        <img src="/src/assets/logo.png" alt="PMB Security Services" className="h-14 w-auto" />
+        <img src="./src/assets/logo.png" alt="PMB Security Services" className="h-14 w-auto" />
           <span className="font-bold text-xl">PMB Security</span>
         </Link>
 
