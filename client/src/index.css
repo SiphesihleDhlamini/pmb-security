@@ -4,12 +4,15 @@
 @keyframes backgroundSlide {
   0%, 23% {
     background-image: url('/src/assets/security1.jpg');
+     opacity: 1;
   }
-  25%, 48%  {
+  24%, 49%  {
     background-image: url('/src/assets/security2.jpg');
+     opacity: 1;
   }
-  75%, 98%   {
+  50%, 100%   {
     background-image: url('/src/assets/security3.jpg');
+     opacity: 1;
   }
 }
 

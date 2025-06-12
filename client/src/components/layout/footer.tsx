@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logo from "@/assets/logo.png";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
           <div 
               className="flex items-center gap-2 mb-4 cursor-pointer" 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src="/src/assets/logo.png" alt="PMB Security Services" className="h-24 w-auto" />
+            <img src={logo} alt="PMB Security Services" className="h-16 w-auto" />
               <span className="font-bold text-xl text-white">PMB Security Services</span>
             </div>
             <p className="text-sm">

@@ -15,7 +15,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative py-64 bg-cover bg-center bg-no-repeat animate-backgroundSlide before:absolute before:inset-0 before:bg-black/30"
         style={{
-          backgroundImage: `url('/src/assets/security1.jpg'), url('/src/assets/security2.jpg'), url('/src/assets/security3.jpg')`,
+          backgroundImage: `url('/src/assets/security3.jpg')`,
         }}>
         <div className="container mx-auto px-4">
           <div className="max-w-3xl relative z-10">
