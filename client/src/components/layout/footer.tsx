@@ -1,5 +1,9 @@
 import { Link } from "wouter";
+<<<<<<< HEAD
 import logo from "@/assets/logo.png";
+=======
+import logo from '../../assets/logo.png';
+>>>>>>> 55036601deaa4c8140b6fc3eb541db2b735e771c
 
 export default function Footer() {
   return (
@@ -10,7 +14,11 @@ export default function Footer() {
           <div 
               className="flex items-center gap-2 mb-4 cursor-pointer" 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+<<<<<<< HEAD
             <img src={logo} alt="PMB Security Services" className="h-16 w-auto" />
+=======
+            <img src={logo} alt="PMB Security Services" className="h-24 w-auto" />
+>>>>>>> 55036601deaa4c8140b6fc3eb541db2b735e771c
               <span className="font-bold text-xl text-white">PMB Security Services</span>
             </div>
             <p className="text-sm">
@@ -48,7 +56,7 @@ export default function Footer() {
             <h3 className="font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li>pmbsecurityservices@gmail.com</li>
-              <li>+27 769 7605</li>
+              <li>060 769 7605</li>
               <li>37 Natal Street</li>
               <li>Bellevue East</li>
               <li>Johannesburg, Gauteng 2198</li>

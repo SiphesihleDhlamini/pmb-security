@@ -23,7 +23,11 @@ export default function Navbar() {
     <nav className="border-b bg-white">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
+<<<<<<< HEAD
         <img src={logo} alt="PMB Security Services" className="h-8 w-auto" />
+=======
+        <img src="./src/assets/logo.png" alt="PMB Security Services" className="h-14 w-auto" />
+>>>>>>> 55036601deaa4c8140b6fc3eb541db2b735e771c
           <span className="font-bold text-xl">PMB Security</span>
         </Link>
 
